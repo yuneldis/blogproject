@@ -28,7 +28,7 @@ public class parentPageObject
     }
 	
 	    /**
-	    * Método que permite esperar a que se muestre el elemento de la Web pasado por parámetro.
+	    * Metodo que permite esperar a que se muestre el elemento de la Web pasado por parámetro.
 	    * @param element
 	    * @return WebElement
 	    */

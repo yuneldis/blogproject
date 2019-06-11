@@ -19,7 +19,7 @@ public class blogSearchTest extends parentTestCaseObject {
 		// Create the Object of the Home Page
 		blogSearchPage home_object = new blogSearchPage(driver);
 
-		// Go to Blog Home page.
+		// Go to Blog Home page for making the test.
 		home_object.connectBlogSearchPage();		
 
 		// Verify if the Page is correct
