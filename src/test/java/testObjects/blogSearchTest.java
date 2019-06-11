@@ -19,8 +19,8 @@ public class blogSearchTest extends parentTestCaseObject {
 		// Create the Object of the Home Page
 		blogSearchPage home_object = new blogSearchPage(driver);
 
-		// Go to "Mercado Libre" Home Page
-		home_object.connectBlogSearchPage();
+		// Go to Blog Home page.
+		home_object.connectBlogSearchPage();		
 
 		// Verify if the Page is correct
 		Assert.assertEquals(driver.getTitle(), "Buscar | Mundo Político");
